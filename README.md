@@ -1,7 +1,9 @@
 # CS4501 Robotics Docker Setup
 
-Prerequisites: You must have [Docker](https://www.docker.com/get-started) and [Docker Compose](https://docs.docker.com/compose/install/) installed.
+## Prerequisites
+You must have [Docker](https://www.docker.com/get-started) and [Docker Compose](https://docs.docker.com/compose/install/) installed.
 
+## Quickstart
 - `git clone https://github.com/less-lab-uva/CS4501-Labs.git`
 - `docker-compose up --build`
 - Go to http://localhost:8080/vnc.html in your browser
