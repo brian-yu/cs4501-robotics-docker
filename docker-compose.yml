@@ -1,0 +1,22 @@
+version: '3'
+services:
+  ros:
+    build: .
+    command: tail -f /dev/null
+    volumes: 
+      - ./CS4501-Labs:/root/CS4501-Labs/
+    environment:
+      - DISPLAY=novnc:0.0
+    networks:
+      - x11
+  novnc:  
+    image: theasp/novnc:latest
+    environment:
+      - DISPLAY_WIDTH=1920
+      - DISPLAY_HEIGHT=1080
+    ports:
+      - "8080:8080"
+    networks:
+      - x11
+networks:
+  x11:
