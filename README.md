@@ -1,5 +1,7 @@
 # CS4501 Robotics Docker Setup
 
+![Screenshot](./example.png)
+
 ## Prerequisites
 You must have [Docker](https://www.docker.com/get-started) and [Docker Compose](https://docs.docker.com/compose/install/) installed.
 
