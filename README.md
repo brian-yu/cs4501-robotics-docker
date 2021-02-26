@@ -6,6 +6,8 @@
 You must have [Docker](https://www.docker.com/get-started) and [Docker Compose](https://docs.docker.com/compose/install/) installed.
 
 ## Quickstart
+- `git clone git@github.com:brian-yu/cs4501-robotics-docker.git`
+- `cd cs4501-robotics-docker`
 - `git clone https://github.com/less-lab-uva/CS4501-Labs.git`
 - `docker-compose up --build`
 - Go to http://localhost:8080/vnc.html in your browser
