@@ -1,5 +1,7 @@
 # CS4501 Robotics Docker Setup
 
+This repository contains a docker setup for running [CS 4501 Robotics for Software Engineers](https://less-lab-uva.github.io/CS4501-Website/) labs. Users can access GUI applications using their browser. It also uses a docker volume to store the lab code, so users can edit the lab code on their host machine using their IDE of choice.
+
 ![Screenshot](./example.png)
 
 ## Prerequisites
