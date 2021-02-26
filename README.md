@@ -23,3 +23,4 @@ You must have [Docker](https://www.docker.com/get-started) and [Docker Compose](
   - `docker-compose exec ros bash`
   - `cd CS4501-Labs/lab4_ws`
   - `source devel/setup.bash`
+  - `rviz`
