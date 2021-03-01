@@ -2,7 +2,7 @@ FROM osrf/ros:melodic-desktop-full
 
 WORKDIR /root
 
-# install dependacies
+# install dependencies
 RUN apt-get -qq update && \
     apt-get -qq install -y \
         python-catkin-tools \
