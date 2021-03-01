@@ -10,3 +10,5 @@ RUN apt-get -qq update && \
         libsdl-image1.2-dev \
         python-tk \
         ros-melodic-imu-filter-madgwick
+
+RUN echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
